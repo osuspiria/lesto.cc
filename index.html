@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LESTO — Oleg Yermak</title>
+<meta name="description" content="Oleg Yermak (lesto): eletrónica, programação e sistemas para arte e cultura.">
+<meta property="og:title" content="LESTO (OLEG YERMAK 1993)">
+<meta property="og:description" content="eletrónica, programação e sistemas para arte e cultura">
+<meta name="theme-color" content="#f3f2f2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fb72f3'/%3E%3Crect x='6' y='10' width='20' height='12' fill='%23201e1d'/%3E%3C/svg%3E">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('lesto-theme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1 class="sr-only">lesto — oleg yermak</h1>
+  <div class="scope" aria-hidden="true" title="">
+    <div class="scope-body">
+      <div class="bclock" id="bclock"></div>
+      <div class="scope-panel"><i class="knob" id="knob1"></i><i class="scope-led" id="scope-led"></i></div>
+    </div>
+    <div class="scope-feet"><i></i><i></i></div>
+  </div>
+  <nav class="keys">
+    <button class="key" id="k-about">sobre</button>
+    <button class="key" id="k-lang">EN</button>
+    <button class="key" id="k-shuffle" aria-label="baralhar" title="baralhar">
+      <svg viewBox="0 0 24 24"><path d="m18 14 4 4-4 4"/><path d="m18 2 4 4-4 4"/><path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22"/><path d="M2 6h1.972a4 4 0 0 1 3.427 1.94l.857 1.4"/><path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45"/></svg>
+    </button>
+    <button class="key" id="k-theme" aria-label="modo escuro" title="modo escuro">
+      <svg class="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main id="canvas" aria-live="polite"></main>
+
+
+<div id="modal" class="modal" hidden></div>
+
+<script src="conteudo.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
