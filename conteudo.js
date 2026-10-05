@@ -60,7 +60,7 @@ window.LESTO = {
       local: 'Braga',
       data: { pt: 'agosto 2025', en: 'august 2025' },
       tipo: { pt: 'instalação sonora dentro de um cacifo de escola', en: 'sound installation inside a school locker' },
-      com: 'colaboração com cosmic burger',
+      com: 'Cosmic Burger',
       link: '', fotos: ['fotos/cacifo-0.jpg', 'fotos/cacifo-1.jpg', 'fotos/cacifo-2.jpg', 'fotos/cacifo-3.jpg', 'fotos/cacifo-4.jpg', 'fotos/cacifo-5.jpg', 'fotos/cacifo-6.jpg'], texto: { pt: '', en: '' }
     },
     {
