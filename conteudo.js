@@ -11,7 +11,7 @@ window.LESTO = {
       'escreve-me: ping@lesto.cc'
     ],
     en: [
-      'oleg yermak (nikolaev, 1993).',
+      'oleg genchev-yermak (nikolaev, 1993).',
       'software and electronics for installations and collaborations with artists.',
       'member of the kindergarten collective.',
       'this is an archive.',
@@ -31,7 +31,7 @@ window.LESTO = {
     {
       titulo: 'fluxo',
       local: 'Braga',
-      data: { pt: 'junho 2025', en: 'June 2025' },
+      data: { pt: 'junho 2025', en: 'june 2025' },
       tipo: { pt: 'instalação interativa', en: 'interactive installation' },
       com: 'coletivo kindergarten',
       link: '',
@@ -42,7 +42,7 @@ window.LESTO = {
     {
       titulo: 'até que a terra nos separe',
       local: 'Porto',
-      data: { pt: 'novembro 2025', en: 'November 2025' },
+      data: { pt: 'novembro 2025', en: 'november 2025' },
       tipo: { pt: 'instalação interativa', en: 'interactive installation' },
       com: 'Bruno Rodrigues Martins',
       link: 'https://brunorodriguesmartins.com/#/work/ate-que-a-terra-nos-separe', fotos: ['fotos/aqtns-0.jpg', 'fotos/aqtns-1.jpg', 'fotos/aqtns-2.jpg'], texto: { pt: '', en: '' }
@@ -58,15 +58,15 @@ window.LESTO = {
     {
       titulo: 'cacifo',
       local: 'Braga',
-      data: { pt: 'agosto 2025', en: 'August 2025' },
+      data: { pt: 'agosto 2025', en: 'august 2025' },
       tipo: { pt: 'instalação sonora dentro de um cacifo de escola', en: 'sound installation inside a school locker' },
       com: 'colaboração com cosmic burger',
-      link: '', fotos: ['fotos/cacifo-0.jpg', 'fotos/cacifo-1.jpg', 'fotos/cacifo-2.jpg', 'fotos/cacifo-3.jpg', 'fotos/cacifo-4.jpg', 'fotos/cacifo-5.jpg', 'fotos/cacif.jpg'], texto: { pt: '', en: '' }
+      link: '', fotos: ['fotos/cacifo-0.jpg', 'fotos/cacifo-1.jpg', 'fotos/cacifo-2.jpg', 'fotos/cacifo-3.jpg', 'fotos/cacifo-4.jpg', 'fotos/cacifo-5.jpg', 'fotos/cacifo-6.jpg'], texto: { pt: '', en: '' }
     },
     {
       titulo: 'pathos',
       local: 'Braga',
-      data: { pt: 'setembro 2023', en: 'setember 2023' },
+      data: { pt: 'setembro 2023', en: 'september 2023' },
       tipo: { pt: 'circuito, instalações interativas', en: 'circuits, interactive installations' },
       com: 'coletivo kindergarten',
       link: '', fotos: ['fotos/pathos-0.jpg', 'fotos/pathos-1.jpg', 'fotos/pathos-2.jpg'], texto: { pt: '', en: '' }
