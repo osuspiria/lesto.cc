@@ -175,6 +175,11 @@
   function close() { modal.hidden = true; modal.innerHTML = ''; document.body.classList.remove('locked'); }
   modal.addEventListener('click', (e) => { if (e.target === modal || e.target.closest('[data-close]')) close(); });
   window.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) close(); });
+  // ao voltar de outro site (botão retroceder / outro separador) o telemóvel pode ter largado as imagens da janela:
+  // recria-as para voltarem a ser desenhadas (o iframe do vídeo fica intacto)
+  const redrawModal = () => { if (!modal.hidden) modal.querySelectorAll('img').forEach((im) => im.replaceWith(im.cloneNode())); };
+  window.addEventListener('pageshow', (e) => { if (e.persisted) redrawModal(); });
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') redrawModal(); });
 
   // teclas
   $('#k-about').onclick = openAbout;
